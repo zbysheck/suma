@@ -1,16 +1,17 @@
-#include <iostream>//comment
+#include <stdio.h>
 int main(){
 	int a, b, temp, c;
-	std::cin >> c;
-	int tab[c];
+	scanf("%d",&c);
+	int *tab=new int[c];
 	for (int i = 0; i < c; i++)
-		std::cin >> tab[i];
-	std::cin >> c;
+		scanf("%d",tab[i]);
+	scanf("%d",&c);
 	for (int i = 0; i < c; i++){
-		std::cin >> a >> b;
+		scanf("%d &d",&a,&b); 
 		for (temp = 0; a <= b; ++a)
 			temp+=tab[a];
-		std::cout << temp << "\n";
+			
+		printf("%d \n",temp);
 	}
     return 0;
 }
