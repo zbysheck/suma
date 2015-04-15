@@ -1,0 +1,2 @@
+# suma
+projekt zaliczeniowy, suma
