@@ -10,7 +10,6 @@ int main(){
 		scanf("%d %d",&a,&b); 
 		for (temp = 0; a <= b; ++a)
 			temp+=tab[a];
-			
 		printf("%d \n",temp);
 	}
     return 0;
